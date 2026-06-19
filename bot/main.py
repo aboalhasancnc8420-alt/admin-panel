@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 import os
 
-TOKEN = os.environ.get('TOKEN')
+TOKEN = os.environ.get('8919205176:AAH7j2VQaczmPs8UjHYvrrZheN_lBhMNAaI')
 bot = telebot.TeleBot(TOKEN, parse_mode='HTML')
 
 # ===== قاعدة بيانات وهمية عشان يشتغل بدون ملفات خارجية =====
