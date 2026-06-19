@@ -3,7 +3,7 @@ from telebot import types
 import os
 
 TOKEN = os.environ.get('TOKEN')
-bot = telebot.TeleBot(TOKEN, parse_mode='HTML')
+bot = telebot.TeleBot(TOKEN,parse_mode='HTML')
 # ===== قاعدة بيانات وهمية عشان يشتغل بدون ملفات خارجية =====
 db = {
     'admins': [],
